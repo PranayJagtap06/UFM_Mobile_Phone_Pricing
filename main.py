@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Setup page.
-about = """This is a mobile phone price range classifier. This app is build in association with *Unified Mentor* for machine learning project submition. The classifier models were trained on dataset provided by *Unified Mentor*. I'm thankful to *Unified Mentor* to provide this platform."""
+about = """This is a mobile phone price range classifier. The classifier models were trained on 2000 mobile phone specifications data. The prediction/classification of the app might be inaccurate due to the inadequacy mobile phone data. A more accurate app can be build with a model trained on larger dataset."""
 
 st.set_page_config(page_title="Mobile Phone Price Classifier",
                    page_icon="📱", menu_items={"About": f"{about}"})
